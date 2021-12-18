@@ -3,9 +3,9 @@ class MiFooter extends HTMLElement {
     this.innerHTML = /* html */
       `<p>
         &copy; 2021
-        Alcala Ornelas Carlos Alberto.
+        Alcala Ornelas CarlosAlberto.
       </p>`;
   }
-}
+} 
 
 customElements.define("mi-footer", MiFooter);
