@@ -5,7 +5,7 @@
   <meta name="viewport"
     content="width=device-width,
        initial-scale=1.0">
-  <title>Usuarios</title>
+  <title>Personal</title>
   <style>
     html {
     background-image:
@@ -20,9 +20,13 @@
      -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-  }
-  </style>
+    background-size: cover;}
+    .outset {
+    border:
+      thick outset rgb(104, 171, 247);
+    }
+  
+</style>
   <script
     src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js">
     </script>
@@ -31,10 +35,6 @@
     </script>
   <script
     src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js">
-    </script>
-  <!-- Agrega el manejo de storage. -->
-  <script
-    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js">
     </script>
   <script src="js/init.js">
   </script>
@@ -53,14 +53,11 @@
 <body>
   <mi-nav></mi-nav>
   <header>
-    <h1>Equipos</h1>
-    <div class="herramientas">
-      <a href="usuarioNuevo.html">
-        Agregar…</a>
-    </div>
-    <p>Busca tu correo con el que te registraste</p>
-    <p>Si no estas en algun equipo descanasas este Fin</p>
+    <h1>Personal</h1>
+    <h4 style="text-align:center">Busca tu nombre en la lista y sabras tu papel a desarrollar, el evento y la fecha del mismo 😉</h4>
+
   </header>
+  
   <ul id="lista" class="lista">
     <li>
       <mi-progreso>
@@ -69,7 +66,8 @@
   </ul>
   <mi-footer></mi-footer>
   <script type="module"
-    src="js/CtrlUsuarios.js">
+    src="js/CtrlAlumnos2.js">
     </script>
 </body>
 </html>
+

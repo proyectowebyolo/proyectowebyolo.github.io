@@ -6,7 +6,7 @@
     content="width=device-width,
        initial-scale=1.0">
   <title>
-    Alumno Nuevo
+    Personal Nuevo
   </title>
   <style>
     html {
@@ -22,9 +22,13 @@
      -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;}
+    .outset {
+    border:
+      thick outset rgb(104, 171, 247);
+  
   }
-  </style>
+</style>
   <script
     src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
   <script
@@ -46,7 +50,7 @@
   <form name="forma">
     <mi-nav></mi-nav>
     <header>
-      <h1>Empleado Nuevo</h1>
+      <h1>Personal Nuevo</h1>
       <div class="herramientas">
         <a
           href="alumnos.html">
@@ -58,35 +62,35 @@
     </header>
     <p>
       <label>
-        Papel a Desarrollar:
+        Papel a Desempeñar
         <input name="matricula"
           type="text" required>
       </label>
     </p>
     <p>
       <label>
-        Nombre y un Apellido ejemplo(Manolo_Perez):
+        Nombre con un apellido
         <input name="nombre"
           type="text" required>
       </label>
     </p>
     <p>
       <label>
-        Teléfono:
+        Teléfono
         <input name="telefono"
           type="text" required>
       </label>
     </p>
     <p>
       <label>
-        Evento a participar:
+        Evento
         <input name="grupo"
           type="text" required>
       </label>
     </p>
     <p>
       <label>
-        Fecha del evento
+        Fecha
         <input name="fecha"
           type="date" required>
       </label>
