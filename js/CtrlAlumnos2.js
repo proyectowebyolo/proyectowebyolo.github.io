@@ -70,7 +70,7 @@ function htmlFila(doc) {
   const matricula = cod(data.matricula);
   const nombre = cod(data.nombre);
   const grupo = cod(data.grupo);
-  const telefono = cod(data.telefono)
+  const telefono = cod(data.telefono);
   var fsf= cod(data.fecha);
   var fecha = new Date(fsf);
   var espacio="[   -   ]";
@@ -83,7 +83,7 @@ function htmlFila(doc) {
       <p class="fila" href=
   "alumno.html?${parámetros}">
          <strong class="primario">
-          ${nombre} - ${matricula} - $ ${telefono} -  ${dformat}
+          ${nombre} - ${matricula} - Precio ${telefono}   Fecha limite del precio: ${dformat}
         </strong>
       </p>
      
