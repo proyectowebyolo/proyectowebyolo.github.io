@@ -3,7 +3,7 @@ class MiFooter extends HTMLElement {
     this.innerHTML = /* html */
       `<p>
         &copy; 2021
-       Alcala Ornelas Carlos Alberto.
+       Frias Flores Jasania Yolotzin.
       </p>`;
   }
 }
